@@ -9,7 +9,7 @@ import React, { Component } from 'react';
 //         return (
 //         <i 
 //         onClick={props.onClick} 
-//         style={{ cursor: "pointer" }}
+//         style={{ cursor: "pointer", color: "red" }}
 //          className={classes} 
 //          aria-hidden="true"
 //          />
