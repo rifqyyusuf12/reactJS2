@@ -29,8 +29,7 @@ class TableHeader extends Component {
     }
     
     render() { 
-        return ( 
-        <thead>
+        return  <thead>
             <tr>
                 { this.props.columns.map(column => 
                 <th 
@@ -42,7 +41,7 @@ class TableHeader extends Component {
                 </th> 
                 ) }
             </tr>
-        </thead> );
+            </thead> 
     }
 }
  
