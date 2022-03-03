@@ -1,4 +1,3 @@
-import { type } from '@testing-library/user-event/dist/type';
 import React from 'react';
 
 const Input = ({ type, name, label, value, error, onChange }) => {
